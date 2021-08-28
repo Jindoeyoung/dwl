@@ -12,19 +12,19 @@ public class YnaDwlController {
 		System.out.println("tempHome()");
 		return "/home.html";
 	}
-	
+
 	@GetMapping("/temp/jsp")
 	public String tempJsp() {
 		// prefix : /WEB-INF/views/
 		// suffix : .jsp
-		return "/test";
-	}		
-	
+		return "test";
+	}
+
 	@GetMapping("/hp")
 	public String downHP() {
 		// prefix : /WEB-INF/views/
 		// suffix : .jsp
-		return "/HP_Download";
-	}	
-	
+		return "HP_Download";
+	}
+
 }
